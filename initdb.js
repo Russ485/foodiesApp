@@ -1,5 +1,10 @@
-import sql from "better-sqlite3";
-const db = sql("meals.db");
+const sql = require("better-sqlite3");
+const path = require("path");
+
+const dbPath = process.env.DB_PATH || "meals.db";
+const absolutePath = path.resolve(process.cwd(), dbPath);
+const db = sql(absolutePath);
+// const db = sql("meals.db");
 
 const dummyMeals = [
   {
