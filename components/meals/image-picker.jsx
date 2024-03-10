@@ -50,7 +50,6 @@ export default function ImagePicker({ label, name }) {
           accept="image/png, image/jpeg"
           name={name}
           ref={imageInputRef}
-          //multiple for several files
           onChange={handleImageChange}
         />
         <button
