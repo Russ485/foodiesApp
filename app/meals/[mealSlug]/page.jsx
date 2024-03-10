@@ -31,7 +31,7 @@ export default async function MealDetailPage({ params }) {
       <header className={classes.header}>
         <div className={classes.image}>
           <Image
-            src={`https://foodiesbucket1992.s3.eu-central-1.amazonaws.com/${meal.image}`}
+            src={`https://${process.env.S3_BUCKET_HOSTNAME}/${meal.image}`}
             alt={meal.title}
             fill
           />
