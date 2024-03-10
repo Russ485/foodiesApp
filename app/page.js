@@ -9,7 +9,6 @@ export default async function Home() {
         <div className={styles.slideshow}>
           <ImageSlideshow />
         </div>
-
         <div>
           <div className={styles.hero}>
             <h1>NextLevel Food for NextLevel Foodies </h1>

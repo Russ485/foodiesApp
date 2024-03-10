@@ -15,7 +15,6 @@ export default function MainHeader() {
           <Image src={logoImg} alt="A plate with food on it" priority />
           NextLevel Food
         </Link>
-
         <nav className={styles.nav}>
           <ul>
             <li>

@@ -11,6 +11,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}
+
 .nav ul {
   list-style: none;
   margin: 0;
