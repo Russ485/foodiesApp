@@ -138,7 +138,7 @@
   }
 
   .headerText {
-    max-width: 75%;
+    max-width: 100%;
   }
 
   .headerText h1 {
@@ -152,5 +152,9 @@
     margin: 0 1rem;
     width: 100%;
     height: 20rem;
+  }
+
+  .headerText h1 {
+    font-size: 2.8rem;
   }
 }
